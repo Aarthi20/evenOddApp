@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.even-odd-container {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  height: 400px;
+  width: 400px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
